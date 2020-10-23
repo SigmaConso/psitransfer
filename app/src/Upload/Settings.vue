@@ -31,6 +31,7 @@
               @click='generatePassword()'
             )
               icon(name="key")
+              span  Generate
 </template>
 
 <script type="text/babel">
