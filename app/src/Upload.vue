@@ -32,6 +32,9 @@
       .col-sm-5
         settings
         .text-right(v-show='files.length && !disabled')
+          div.alert.alert-warning.text-left
+            strong Warning:
+            span  Do not forget to set a password if you are sharing sensitive data
           button.btn.btn-lg.btn-success(@click="$store.dispatch('upload/upload')")
             icon.fa-fw(name="upload")
             |  upload

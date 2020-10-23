@@ -18,6 +18,7 @@
             :disabled='disabled', placeholder='optional')
             span.input-group-addon(style='cursor: pointer', title='generate password', @click='generatePassword()')
               icon(name="key")
+              span  Generate
 </template>
 
 <script type="text/babel">
